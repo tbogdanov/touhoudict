@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name         touhoudict
-// @namespace    https://drakeirving.github.io/touhoudict/
-// @version      2.0.2
-// @description  https://drakeirving.github.io/touhoudict/
-// @author       drakeirving
-// @match        http://toho-vote.info/*
+// @name         touhoudict-ru
+// @namespace    https://raw.githubusercontent.com/tbogdanov/touhoudict/master/
+// @version      0.0.1
+// @description  Русская версия скрипта https://drakeirving.github.io/touhoudict/
+// @author       drakeirving, tbogdanov
+// @match        https://toho-vote.info/*
 // @grant        none
 // @require      thdict_data.js
 // ==/UserScript==
