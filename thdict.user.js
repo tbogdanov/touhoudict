@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         touhoudict-ru
 // @namespace    https://raw.githubusercontent.com/tbogdanov/touhoudict/master/
-// @version      0.0.1
+// @version      0.0.2
 // @description  Русская версия скрипта https://drakeirving.github.io/touhoudict/
 // @author       drakeirving, tbogdanov
 // @match        https://toho-vote.info/*
