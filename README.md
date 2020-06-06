@@ -1,5 +1,5 @@
 Русскоязычная версия скрипта для перевода сайта https://toho-vote.info/
-Адаптация скрипта подготовлена администрацией группы ВК и Discord-сервера Touhou Fans Club https://vk.com/touhougroup
+<br/>Адаптация скрипта подготовлена администрацией группы ВК и Discord-сервера Touhou Fans Club https://vk.com/touhougroup<br/>
 
 # Как использовать
 1. Установите расширение [Tampermonkey](https://www.tampermonkey.net/)
