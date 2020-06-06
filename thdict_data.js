@@ -57,7 +57,7 @@ let dict = {
     "The Grimoire of Marisa": "The Grimoire of Marisa",
     "東方茨歌仙": "Wild and Horned Hermit",
     "東方鈴奈庵": "Forbidden Scrollery",
-    "東方文果真報": "Alternative Facts in Eastern Utopia"
+    "東方文果真報": "Alternative Facts in Eastern Utopia",
     "The Grimoire of Usami 秘封倶楽部異界撮影記録": "The Grimoire of Usami  Secret Sealing Club's Otherworld Photography Record",
     "東方智霊奇伝 反則探偵さとり": "Touhou Chireikiden  Cheating Detective Satori",
     "東方酔蝶華": "Touhou Suichouka",
