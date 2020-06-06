@@ -2,7 +2,7 @@
 
 # Как использовать
 1. Установите расширение [Tampermonkey](https://www.tampermonkey.net/)
-2. Установите [этот пользовательский скрипт](https://raw.githubusercontent.com/tbogdanov/touhoudict/master/)
+2. Установите [этот пользовательский скрипт](https://raw.githubusercontent.com/tbogdanov/touhoudict/master/thdict.user.js)
 3. Если понадобится обновить скрипт, просто повторите шаг 2.
 
 # Благодарности / Thanks
