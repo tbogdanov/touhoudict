@@ -29,12 +29,14 @@ let dict = {
     "東方紺珠伝": "Legacy of Lunatic Kingdom",
     "東方天空璋": "Hidden Star in Four Seasons",
     "秘封ナイトメアダイアリー": "Violet Detector",
+    "東方鬼形獣": "Wily Beast and Weakest Creature",
     "東方萃夢想": "Immaterial and Missing Power",
     "東方緋想天": "Scarlet Weather Rhapsody",
     "東方非想天則": "Touhou Hisoutensoku",
     "東方心綺楼": "Hopeless Masquerade",
     "東方深秘録": "Urban Legend in Limbo",
     "東方憑依華": "Antinomy of Common Flowers",
+    "東方剛欲異聞": "Touhou Gouyoku Ibun",
     "幺樂団の歴史": "Akyu's Untouched Score",
     "蓬莱人形": "Dolls in Pseudo Paradise",
     "蓮台野夜行": "Ghostly Field Club",
@@ -56,6 +58,10 @@ let dict = {
     "東方茨歌仙": "Wild and Horned Hermit",
     "東方鈴奈庵": "Forbidden Scrollery",
     "東方文果真報": "Alternative Facts in Eastern Utopia"
+    "The Grimoire of Usami 秘封倶楽部異界撮影記録": "The Grimoire of Usami  Secret Sealing Club's Otherworld Photography Record",
+    "東方智霊奇伝 反則探偵さとり": "Touhou Chireikiden  Cheating Detective Satori",
+    "東方酔蝶華": "Touhou Suichouka",
+    "東方Project人妖名鑑 宵闇編": "Touhou Project: Who's Who of Humans and Youkai - Dusk Edition"
   },
 
   "toho-vote.info/": {
