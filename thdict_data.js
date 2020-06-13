@@ -7,8 +7,11 @@ let dict = {
     "投票対象一覧": "Списки",
     "投票の決まり": "Правила",
     "よくある質問": "FAQ",
-    "投票支援リンク集": "Фанарт"
-
+    "投票支援リンク集": "Фанарт",
+    "第16回トップ": "Результаты 16-го опроса",
+    "人妖部門結果": "По персонажам",
+    "音楽部門結果": "По музыке",
+    "作品部門結果": "По работам",
   },
 
   "toho-vote.info/": {
@@ -42,16 +45,34 @@ let dict = {
     "use_dictionaries": ["characters", "music", "works"]
   },
   
+  "toho-vote.info/result16/index.php" : {
+      "結果発表（速報）": "Объявление результатов",
+      "人妖部門": "Результаты по персонажам",
+      "音楽部門": "Результаты по музыке",
+      "作品部門": "Результаты по каноническим работам",
+      "票": " проголосовавших",
+      "※アンケート、コメントおよび詳細な集計情報は後日公開予定です。": "Анкеты, комментарии и подробная сводная информация будут опубликованы позднее.",
+      "※本投票において公開されたデータは、統計や考察などの目的であれば、自己の責任に基づき自由に使用しても構いません（その際は必ず出典を明示してください）。": "Вы можете свободно использовать эти данные в целях обработки статистики или в других целях (если укажете наш сайт как источник).",
+      "過去の人気投票結果": "Результаты прошлых лет"
+  },
+  
   "toho-vote.info/result16/result_list_character.php" : {
-    "use_dictionaries": ["characters"]   
+    "use_dictionaries": ["characters", "results_table"],
+    
+    "人妖部門投票結果": "Результаты голосования по персонажам",
+    "※支援リンク数は名前から機械抽出したものであるため、カウントから漏れている場合もあります。": "Также учитываются имена персонажей по ссылкам из раздела Фанарт. Они были извлечены автоматически, поэтому возможна небольшая погрешность."
   },
   
   "toho-vote.info/result16/result_list_music.php" : {
-    "use_dictionaries": ["music"]   
+    "use_dictionaries": ["music", "results_table"],
+    
+    "音楽部門投票結果": "Результаты голосования по музыке",
   },
   
   "toho-vote.info/result16/result_list_title.php" : {
-    "use_dictionaries": ["works"]   
+    "use_dictionaries": ["works", "results_table"],
+    
+    "作品部門投票結果": "Результаты голосования по каноническим работам"
   },
     
 
@@ -1339,7 +1360,36 @@ let dict = {
     "夢幻回廊": "Fantasy Corridor",
     "蓬莱幻想　～ far East": "Hourai Illusion ~ far East",
     "夜の鳩山を飛ぶ": "Fly above Hatoyama at night",
-    "妖々跋扈　～ Speed Fox!": "Youkai Domination ~ Speed Fox!"   
+    "妖々跋扈　～ Speed Fox!": "Youkai Domination ~ Speed Fox!",
+    
+    "物言わぬ獣の霊": "Silent Beast Spirits",
+    "地蔵だけが知る哀嘆": "The Lamentations Known Only by Jizo",
+    "ジェリーストーン": "Jelly Stone",
+    "ロストリバー": "Lost River",
+    "石の赤子と水中の牛": "The Stone Baby and the Submerged Bovine",
+    "不朽の曼珠沙華": "Everlasting Spider Lily",
+    "セラフィックチキン": "Seraphic Chicken",
+    "アンロケイテッドヘル": "Unlocated Hell",
+    "トータスドラゴン　〜幸運と不運": "Tortoise Dragon ~ Fortune and Misfortune",
+    "ビーストメトロポリス": "Beast Metropolis",
+    "セラミックスの杖刀人": "Joutounin of Ceramics",
+    "エレクトリックヘリテージ": "Electric Heritage",
+    "偶像に世界を委ねて　〜Idoratrize World": "Entrusting this World to Idols ~ Idoratrize World",
+    "輝かしき弱肉強食の掟": "The Shining Law of the Strong Eating the Weak",
+    "聖徳太子のペガサス　〜Dark Pegasus": "Prince Shoutoku's Pegasus ~ Dark Pegasus",
+    "畜生達の休息": "The Animals' Rest",
+    "地下からの帰還": "Returning Home from the Underground",
+    
+    "恋色マスタースパーク（恋色マジック）": "Love-colored Master Spark (Love-colored Magic)",
+    "少女綺想曲": "Maiden's Capriccio (Dream Battle)",
+    "二色蓮花蝶": "Dichromatic Lotus Butterfly (Ancients, Red and White)",
+    "桜花之恋塚": "Lovely Mound of Cherry Blossoms (Japanese Flower, Flower of Japan)",
+    "アンノウンX": "Unknown X (Occultly Madness, Unfound Adventure)",
+    "花映塚": "Flower Viewing Mound (Higan Retour, After Higan Retour)",
+    "幻想科学（幻想機械）": "Illusionary Science (Fantasy Machine)",
+    "サーカスレヴァリエ（機械サーカス）": "Circus Reverie (Mechanical Circus ~ Reverie)",
+    "憑依華（OP曲）": "Posession Flowers"
+    
   },
   
   "works" : {
@@ -1397,5 +1447,18 @@ let dict = {
     "東方智霊奇伝 反則探偵さとり": "Touhou Chireikiden  Cheating Detective Satori",
     "東方酔蝶華": "Touhou Suichouka",
     "東方Project人妖名鑑 宵闇編": "Touhou Project: Who's Who of Humans and Youkai - Dusk Edition"
+  },
+  
+  "results_table": {
+    "※詳細集計ページおよびコメントの公表はしばらくお待ちください。": "Комментарии и более подробный анализ результатов будут опубликованы позднее.\nВ таблице ниже приведены результаты нынешнего опроса и двух предыдущих.",
+      
+    "順位": "Мст",
+    "前回": "Пред",
+    "前々": "2Пред",
+    "名前": "Имя",
+    "ポイント": "Голосов",
+    "一押し": "1-е место",
+    "コメント": "Комментариев",   
+    "支援作品": "Фанарта"
   }
 };
