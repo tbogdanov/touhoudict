@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         touhoudict-ru
 // @namespace    https://raw.githubusercontent.com/tbogdanov/touhoudict/master/
-// @version      0.0.3
+// @version      0.0.4
 // @description  Русская версия скрипта https://drakeirving.github.io/touhoudict/
 // @author       drakeirving, tbogdanov
 // @match        https://toho-vote.info/*
@@ -58,8 +58,17 @@
     if(res !== undefined) return res;
 
     uri = uri.split("//")[1];
-    if(uri in dict) res = dict[uri][s];
-    if(res !== undefined) return res;
+    if(uri in dict) {
+        res = dict[uri][s];
+        if(res !== undefined) return res;
+ 
+        if ("use_dictionaries" in dict) {
+            dict[uri]["use_dictionaries"].forEach(function (item, index) {
+                res = dict[item][s];
+                if (res !== undefined) return res;
+            }
+        }
+    }
 
     return undefined;
   }
