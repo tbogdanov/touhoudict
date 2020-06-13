@@ -43,7 +43,7 @@ let dict = {
   },
   
   "toho-vote.info/result16/result_list_character.php" : {
-    "use_dictionaries": ["characters"}   
+    "use_dictionaries": ["characters"]   
   },
   
   "toho-vote.info/result16/result_list_music.php" : {
