@@ -16,7 +16,7 @@
     document.body,
     NodeFilter.SHOW_ELEMENT,
     (function(){
-      let stuff = new Set(["a","h2","h3","dt","dd","em","input","p","optgroup","option","button","li","span", "time"]);
+      let stuff = new Set(["a","h2","h3","dt","dd","em","input","p","optgroup","option","button","li","span","time","td"]);
       return {
         acceptNode: function(node) {
           return (stuff.has(node.localName)) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_SKIP;
@@ -61,11 +61,14 @@
     if(uri in dict) {
         res = dict[uri][s];
         if(res !== undefined) return res;
- 
-        if ("use_dictionaries" in dict) {
+
+        if ("use_dictionaries" in dict[uri]) {
+            let res = "";
             dict[uri]["use_dictionaries"].forEach(function (item, index) {
                 res = dict[item][s];
-                if (res !== undefined) return res;
+            });
+            if (res !== undefined) {
+                return res;
             }
         }
     }

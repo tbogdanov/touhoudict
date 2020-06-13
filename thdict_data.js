@@ -1340,7 +1340,7 @@ let dict = {
     "蓬莱幻想　～ far East": "Hourai Illusion ~ far East",
     "夜の鳩山を飛ぶ": "Fly above Hatoyama at night",
     "妖々跋扈　～ Speed Fox!": "Youkai Domination ~ Speed Fox!"   
-  }
+  },
   
   "works" : {
     "東方靈異伝": "Highly Responsive to Prayers",
